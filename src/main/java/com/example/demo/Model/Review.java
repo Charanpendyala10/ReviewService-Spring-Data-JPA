@@ -15,6 +15,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "bookingreview")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Review extends BaseModel{
 
 
